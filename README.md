@@ -1,4 +1,4 @@
-# CRT-Covid19
+# CR-Covid19
 Hey, This project is intended to fight covid-19 with 4 main purposes:
 
 -Digital test to screen potentiel ill people
