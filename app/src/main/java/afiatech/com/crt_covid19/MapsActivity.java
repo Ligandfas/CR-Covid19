@@ -232,7 +232,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                             case 2 : EXPOSITION=1;i++;SCORE=SCORE+2;break;
                             case 3 : MAUX_GAURGE=1;i++;SCORE=SCORE+1;break;
                             case 4 : NAUSEE=1;i++;SCORE=SCORE+1;break;
-                            case 5 : M_CHRONIQUES=1;i++;SCORE=SCORE+1;break;
+                            case 5 : M_CHRONIQUES=1;i++;SCORE=SCORE+1;showTelDialog();break;
                         }
                     }
                 })
@@ -245,7 +245,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                             case 2 : EXPOSITION=0;;break;
                             case 3 : MAUX_GAURGE=0;;break;
                             case 4 : NAUSEE=0;i++;;break;
-                            case 5 : M_CHRONIQUES=0;i++;;break;
+                            case 5 : M_CHRONIQUES=0;i++;showTelDialog();break;
                         }
                     }
                 })
@@ -328,7 +328,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     private void launchSurvey(){
         i=0;
         SCORE=0;
-        showTelDialog();
+       // showTelDialog();
         surveyOn(" 6/6 ","هل لديك احدى الأمراض المزمنة التالية: القلب أو التنفس أو الكلى ؟");
         surveyOn(" 5/6 ","هل لديك احساس بالغثيان أو التقيؤ أو الإسهال ؟");
         surveyOn(" 4/6 ","هل لديك إلتهاب في الحلق ؟");
