@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "835149670403",
+    "firebase_url": "https://crt-covid19.firebaseio.com",
+    "project_id": "crt-covid19",
+    "storage_bucket": "crt-covid19.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:835149670403:android:b58ea2e5c33560ef670636",
+        "android_client_info": {
+          "package_name": "afiatech.com.crt_covid19"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "835149670403-5l1vhj62u0ad9vhivm0mvf34h3l0bqgh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "afiatech.com.crt_covid19",
+            "certificate_hash": "032cced1b50e9c8b59431637164cc57c442bfccb"
+          }
+        },
+        {
+          "client_id": "835149670403-g8benohbvfsciuau517ut9c0i600a3vj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtDUEGRRA-agCdOcnkZBCxZPwLQZSmKsc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "835149670403-g8benohbvfsciuau517ut9c0i600a3vj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
