@@ -7,4 +7,4 @@ Hey, This project is intended to fight covid-19 with 4 main purposes:
 
 -Identify needy people
 
-Support the country with data for more specific testing
+-Support the country with data for more specific testing
